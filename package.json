@@ -8,20 +8,20 @@
     "test": "test"
   },
   "bin": {
-    "spritesheet-js": "./index.js"
+    "spritesheet-js": "index.js"
   },
   "dependencies": {
     "async": "~0.2.9",
     "binpacking": "~0.0.1",
+    "child_process": "^1.0.2",
     "glob": "~3.2.6",
     "mustache": "~0.7.2",
     "optimist": "~0.6.0",
-    "platform-command": "git+https://gitlab.com/gitlabdev/platform-command.git",
     "underscore": "1.9.2"
   },
   "devDependencies": {
-    "mocha": "*",
-    "expect.js": "~0.2.0"
+    "expect.js": "~0.2.0",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha test"
@@ -48,7 +48,6 @@
   "bugs": {
     "url": "https://github.com/krzysztof-o/spritesheet.js/issues"
   },
-  "_id": "spritesheet-js@0.7.0",
   "dist": {
     "shasum": "ba77647a46fa7306851a173ad69f105b3dfbb695",
     "tarball": "http://registry.npmjs.org/spritesheet-js/-/spritesheet-js-0.7.0.tgz"
